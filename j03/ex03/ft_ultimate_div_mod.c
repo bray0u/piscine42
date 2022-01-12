@@ -11,7 +11,7 @@ int main()
     ft_ultimate_div_mod(&a, &b);
     a == 1 && b == 4
         ? printf("✔️ Correct\n")
-        : printf("❌ Wrong\n\tdiv : '%d', expected : '1'\n\tmod: '%d', expected: '4'\n", a, b);
+        : printf("❌ Wrong\n\ta : '%d', expected : '1'\n\tb: '%d', expected: '4'\n", a, b);
     
     a = 42;
     b = 5;
