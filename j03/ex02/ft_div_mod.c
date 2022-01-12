@@ -2,6 +2,7 @@
 
 int main()
 {
+    printf("Cringe, using main from other people is bad", %s\n);
     int div;
     int mod;
 
