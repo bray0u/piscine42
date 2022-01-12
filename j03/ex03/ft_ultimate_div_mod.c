@@ -12,10 +12,10 @@ int main()
     a == 1 && b == 4
         ? printf("✔️ Correct\n")
         : printf("❌ Wrong\n\ta: '%d', expected : '1'\n\tb: '%d', expected: '4'\n", a, b);
-    
+
     a = 42;
     b = 5;
-    printf("test1 : a = 42, b = 5\n");
+    printf("test2 : a = 42, b = 5\n");
     ft_ultimate_div_mod(&a, &b);
     a == 8 && b == 2
         ? printf("✔️ Correct\n")
